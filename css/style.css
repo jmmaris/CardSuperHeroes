@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.arriba {
+    background-color: #1CD1B0;
+    font-size: 48px;
+    height: 60px;
+}
+
+.cabecera {
+    background-color: #00669F;
+    height: 162px;
+    position: sticky;
+    top : 0px;
+}
+
+h1{    
+    color: #FFFFFF;
+    font-size: 72px;
+    position: relative;
+    top: 25%;    
+}
+
+.card {
+    background-color: #F3F3F3;
+    height: 719.96px;
+    left: 25%;
+    position: absolute;
+    text-align: center;
+    width: 700px;
+}
+
+.bman{
+    top: 699px;
+}
+
+.wwoman{
+    position: absolute;
+    top: 1896px;
+}
+
+.sman {
+    position: absolute;
+    top: 3093px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    position: relative;
+    top: -150px
+}
+
+.fondo{
+    position: absolute;
+    height: 406.63px;
+    width: 700px;
+    border-radius: 50px 50px 0 0;
+}
+
+.contenido p{
+    position: relative;
+    font-size: 36px;
+    width: 624px;
+    text-align: left;
+    left: 38px;
+    top: -100px;
+
+
+}
+
+.contenido h2{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 64px;
+    top: -150px;
+    
+}
+
+#batman {
+    background-image: url("../img/bg-batman.jpg");
+    background-position: center;
+    background-size: 800px;
+    background-position-x: -100px;
+    left: 25%;
+    top: 297px;
+}
+
+#wonderWoman {
+    background-image: url("../img/bg-wonderw.jpg");
+    background-position: center;
+    background-size: 800px;
+    background-position-x: -100px;
+    left: 25%;
+    top: 1489px;
+}
+
+
+#superman {
+    background-image: url("../img/bg-superman.jpg");
+    background-position: center;
+    background-size: 800px;
+    background-position-x: -100px;
+    left: 25%;
+    top: 2686px;
+}
+.fa-plus-circle {
+    font-size: 150px;
+    color: #00669F;
+    position: fixed;
+    right: 12.5%;
+    bottom: 33%;
+}
+.VerMas {
+    position: relative;
+    background-color: #00669F;
+    border-radius: 7px;
+    width: 300px;
+    height: 94.12px;
+    left: 200px;
+    bottom: 50px;
+}
+
+.VerMas a{
+    color: #F3F3F3;
+    text-align: center;
+    font-size: 36px;
+    text-decoration: none;
+    position: relative;
+    top: 25px;
+}
+.fa-heart {
+    color: #CC2424;
+    font-size: 50px;
+    position: relative;
+    top: 36.5px;
+    left: 50px;
+}
+
+
+
+footer{
+    position: absolute;
+    width: 2056px;
+    height: 162px;
+    left: -136px;
+    top: 3949px;
+    background-color: #00669F;
+}
+
+footer p{
+    position: relative;
+    color: #FFF;
+    font-size: 36px;
+    margin: 0 auto;
+    left: 25%;
+    top: 33%
+    
+}
